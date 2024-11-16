@@ -1194,7 +1194,6 @@ margin: 10px auto 0 auto; /* Centers the underline */
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
-/* Footer Styling */
 .footer {
   background-color: var(--black);
   color: var(--lavender-gray);
@@ -1271,6 +1270,19 @@ margin: 10px auto 0 auto; /* Centers the underline */
 
 .social-links li {
   list-style: none;
+}
+
+
+.phone-numbers {
+  white-space: nowrap; /* Prevents line breaks within the element */
+  display: flex;
+  gap: 5px; /* Optional: adds a bit of space between items */
+  align-items: center;
+}
+
+.phone-numbers a {
+  text-decoration: none; /* Optional: removes underline from links */
+  color: inherit; /* Keeps the link color consistent with text */
 }
 
 .social-links li a {
